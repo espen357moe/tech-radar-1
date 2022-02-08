@@ -1,8 +1,7 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
-align on technology choices. It is based on the [pioneering work
+Forked from [Zalando's tech radar](https://github.com/zalando/tech-radar) to help
+aligning technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
 This repository contains the code to generate the visualization:
@@ -66,32 +65,36 @@ radar_visualization({
 
 Entries are positioned automatically so that they don't overlap.
 
-As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
-
 ## Local Development
 
-1. install dependencies with yarn (or npm):
+1. install dependencies with npm (or yarn):
 
-```
-yarn 
+```none
+
+npm install 
+
 ```
 
 2. start local dev server:
 
-```
-yarn start
+```none
+
+npm start
+
 ```
 
 3. your default browser should automatically open and show the url
- 
-```
+
+```none
+
 http://localhost:3000/
+
 ```
 
 ## License
 
-```
+```none
+
 The MIT License (MIT)
 
 Copyright (c) 2017-2022 Zalando SE
